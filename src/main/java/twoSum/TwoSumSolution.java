@@ -16,8 +16,8 @@ public class TwoSumSolution {
 
     public int [] solution(int array [], int target){
         int [] result = new int[2];
-        for(int i =0; i < array.length-1;i++){
-            for(int j = 0; j < array.length-1;j++){
+        for(int i =0; i < array.length;i++){
+            for(int j = 0; j < array.length;j++){
                 if(array[i] + array[j] == target){
                     result[0] = array[i];
                     result[1] = array[j];
