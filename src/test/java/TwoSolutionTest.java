@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import twoSum.TwoSumSolution;
+import codewars.TwoSumSolution;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 

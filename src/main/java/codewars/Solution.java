@@ -1,4 +1,4 @@
-package twoSum;
+package codewars;
 
 public class Solution {
 
@@ -12,6 +12,13 @@ public class Solution {
     }
 
     public static void printZeros(int row, int col){
+        /**
+         * [
+         * [2,2],
+         * [2,2]
+         * ]
+         *
+         */
         for(int i =0; i < row;i++){
             for(int j=0; j < col; j++) {
                 System.out.print("O");
@@ -47,7 +54,10 @@ public class Solution {
         for(int i = 0;i < len + 4;i++) {
             System.out.print("*");
         }
-    }}
+    }
+
+
+}
 
 
 

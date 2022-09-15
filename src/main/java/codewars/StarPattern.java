@@ -1,4 +1,4 @@
-package twoSum;
+package codewars;
 
 import java.util.Arrays;
 import java.util.HashMap;
