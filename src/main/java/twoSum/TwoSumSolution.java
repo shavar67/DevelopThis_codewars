@@ -13,7 +13,7 @@ package twoSum;
 public class TwoSumSolution {
 
 
-
+   /** bad solution <3 **/
     public int [] solution(int array [], int target){
         int [] result = new int[2];
         for (int i : array) {
@@ -26,6 +26,8 @@ public class TwoSumSolution {
         }
         return result;
     }
+
+
 
 
 
