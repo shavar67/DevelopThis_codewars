@@ -4,10 +4,10 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        printZeros(4,4);
+
       parsePhoneNumber("1234567890");
-      characterVal("An example");
-      printWord("Hello world!");
+
+
 
     }
 
@@ -28,8 +28,8 @@ public class Solution {
 
     static void parsePhoneNumber(String number){
         String prefix = number.substring(0,3);
-        String mid = number.substring(4,7);
-        String end = number.substring(7);
+        String mid = number.substring(3,6);
+        String end = number.substring(6);
         String parsed = "("+prefix+") " + mid + "-" + end;
         System.out.println(parsed);
     }
